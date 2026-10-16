@@ -1,0 +1,57 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Packaging / build artifacts
+build/
+dist/
+*.egg-info/
+*.egg/
+*.spec
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and runtime output
+*.log
+logs/
+
+# Generated databases and user-specific runtime data
+*.db
+*.sqlite3
+battery_data.db
+battery_telemetry.db
+
+# OS / editor artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Jupyter notebooks and profiling output
+.ipynb_checkpoints/
+*.ipynb
+
+# Generated charts / exports
+*.csv
+!battery_training_data.csv
+
+# Model artifacts - keep source/trained examples if intentionally tracked
+# battery_model.pkl intentionally not ignored because it is part of this project
+
+# Local test output
+coverage.xml
+htmlcov/

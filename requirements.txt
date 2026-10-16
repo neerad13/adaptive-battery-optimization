@@ -1,0 +1,9 @@
+customtkinter
+psutil
+pyserial
+matplotlib
+joblib
+numpy
+pandas
+scikit-learn
+beautifulsoup4
